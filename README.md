@@ -57,6 +57,8 @@ The starter app is provided in React with Bootstrap also included via CDN in ind
 
 - [x] 13. Add pre-commit.
 
+- [x] 16. Deploy on Netlify, Vercel or GitHub Pages
+
 ##### TODOs:
 
 
@@ -70,10 +72,12 @@ The starter app is provided in React with Bootstrap also included via CDN in ind
 
 - [ ] 15. Write tests for implemented functionalities.
 
-- [ ] 16. Deploy on Netlify, Vercel or GitHub Pages
-
 - [ ] 17. Add Circle CI pipeline for deploy and tests.
 
 ##### Version details
 
 Node.js version used: 16.13.0
+
+##### Deployed live site
+
+[formidablae-search-github-repos.netlify.app](https://formidablae-search-github-repos.netlify.app/)
