@@ -3,7 +3,7 @@ import "./styles/App.css";
 import { BrowserRouter, Switch } from "react-router-dom";
 import { Route } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
-import NavBar from 'react-bootstrap/NavBar';
+import NavBar from 'react-bootstrap/Navbar';
 import Home from './pages/Home';
 import PageNotFound from './pages/errors/PageNotFound';
 

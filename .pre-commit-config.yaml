@@ -1,0 +1,25 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    -   id: check-added-large-files
+    -   id: pretty-format-json
+        args:
+            - --autofix
+            - --indent=4
+            - --no-sort-keys
+    -   id: check-merge-conflict
+
+# eslint
+-   repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v6.8.0
+    hooks:
+    -   id: eslint
+        args: [--fix]
+        types: []
+        files: (.*.js$)
+        additional_dependencies:
+            - eslint@6.8.0
